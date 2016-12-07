@@ -1,0 +1,8 @@
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/User.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/web/GreetController.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/web/CreateController.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/UserDao.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/Resources.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/EJBUserDao.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/domain/ManagedBeanUserDao.java
+/home/ic03/workspaceJEE/greeter/src/main/java/org/jboss/as/quickstarts/greeter/web/RemoveController.java

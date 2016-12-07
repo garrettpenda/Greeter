@@ -1,0 +1,37 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core">
+
+<ui:composition template="template.xhtml">
+    <ui:define name="content">
+        <h:messages />
+        <h:form>
+            <h:panelGrid columns="3">
+            
+            	<h:outputLabel for="id">Enter id:</h:outputLabel>
+                <h:inputText id="id" value="#{modUser.id}" />
+                <h:message for="id" />
+            
+                <h:outputLabel for="username">Enter new username:</h:outputLabel>
+                <h:inputText id="username" value="#{modUser.username}" />
+                <h:message for="username" />
+
+                <h:outputLabel for="firstName">Enter new  first name:</h:outputLabel>
+                <h:inputText id="firstName" value="#{modUser.firstName}" />
+                <h:message for="firstName" />
+
+                <h:outputLabel for="lastName">Enter new last name:</h:outputLabel>
+                <h:inputText id="lastName" value="#{modUser.lastName}" />
+                <h:message for="lastName" />
+
+            </h:panelGrid>
+            <h:commandButton action="#{modifyController.modify}"
+                value="modify User" />
+        </h:form>
+        <h:link outcome="/greet.xhtml">Greet a user!</h:link>
+    </ui:define>
+</ui:composition>
+</html>
